@@ -3,6 +3,8 @@
 Utility for creating GraphQL microservices, which can be combined into a single endpoint through tools like Apollo 
 Gateway.
 
+[![Build Status](https://travis-ci.org/pascaldevink/php-graphql-federation.svg?branch=master)](https://travis-ci.org/pascaldevink/php-graphql-federation)
+
 ## Installation
 
 Use the package manager [composer](https://getcomposer.org) to install graphql-federation.
