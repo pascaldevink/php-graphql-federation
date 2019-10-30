@@ -3,18 +3,18 @@ sudo: false
 
 php:
   - '7.3'
-  - nightly
+  - '7.4snapshot'
 
 ## Build matrix for lowest and highest possible targets
 matrix:
   include:
     - php: 7.3
       env: dependencies=lowest
-    - php: nightly
+    - php: 7.4snapshot
       env: dependencies=lowest
     - php: 7.3
       env: dependencies=highest
-    - php: nightly
+    - php: 7.4snapshot
       env: dependencies=highest
 
 ## Update composer and run the appropriate composer command
