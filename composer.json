@@ -1,0 +1,30 @@
+{
+    "name": "pascaldevink/graphql-federation",
+    "description": "Utility for creating GraphQL microservices, which can be combined into a single endpoint through tools like Apollo Gateway",
+    "keywords": ["graphql", "federation", "apollo"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal de vink",
+            "email": "pascal@pascaldevink.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PascalDeVink\\GraphQLFederation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PascalDeVink\\GraphQLFederation\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "webonyx/graphql-php": "^0.13.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
