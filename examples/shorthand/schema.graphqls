@@ -1,0 +1,17 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Mutation {
+  sum(x: Int, y: Int): Int
+}
+
+type Query {
+  echo(message: String): String
+#  getUser: User
+}
+
+type User @key(fields: "id") {
+  id: ID!
+}
