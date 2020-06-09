@@ -104,7 +104,7 @@ EOF;
 
                         if (!$type || $type instanceof ObjectType === false) {
                             throw new \Exception(
-                                `The _entities resolver tried to load an entity for type "${$typeName}", but no object type of that name was found in the schema`
+                                "The _entities resolver tried to load an entity for type \"{$typeName}\", but no object type of that name was found in the schema"
                             );
                         }
 
